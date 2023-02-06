@@ -1,0 +1,239 @@
+
+
+* {
+  box-sizing: border-box;
+  background-color: #fafafa;
+}
+body {
+    font-family: 'Nunito Sans';
+    background-color: #fafafa;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-bottom: 100px;
+}
+
+header {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+.header-text {
+  color: #111517;
+  background-color: white;
+}
+
+.left {
+  margin-left: 30px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.right {
+  margin-right: 30px;
+  display: inline;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.header-div{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: white;
+}
+
+.main-line {
+  display: flex;
+  flex-direction: row;
+  background-color: #fafafa;
+}
+
+.divider {
+  background-color: #fafafa;
+  flex: 60%
+}
+
+.searchBar {
+    margin-left: 30px;
+    margin-bottom: 20px;
+    width: 375px;
+    height: 50px;
+    background-color: white;
+    box-shadow: 0 0 3px rgba(0,0,0,0.1);
+    flex: 25%;
+}
+
+.field {
+    display: inline;
+    background-color: white;
+}
+
+input {
+    border:0px;
+    background-color: white;
+}
+
+i{
+  background-color: white;
+}
+
+
+.fa-magnifying-glass{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    color: #909090;
+}
+
+.sBtn-text{
+  background-color: white;
+}
+
+.option-text{
+  background-color: white;
+}
+
+.select-menu {
+  width: 200px;
+  margin-right: 70px;
+  margin-left: 30px;
+  flex: 15%;
+}
+
+.select-menu .select-btn {
+  display: flex;
+  height: 50px;
+  background: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #111517;
+  border-radius: 5px;
+  align-items: center;
+  cursor: pointer;
+  justify-content: space-between;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.select-btn i {
+  font-size: 14px;
+}
+.select-btn:hover + .options {
+  display: block;
+}
+
+.select-menu .options {
+  position: relative;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 3px;
+  border-radius: 8px;
+  background: white;
+  box-shadow: 0 0 3px rgba(0,0,0,0.1);
+  display: none;
+}
+
+.options .option {
+  display: flex;
+  height: 30px;
+  cursor: pointer;
+  padding: 0 16px;
+  border-radius: 8px;
+  align-items: center;
+  background: white;
+}
+
+.options .option:hover {
+  background: #fafafa;
+}
+
+.option .option-text {
+  font-size: 14px;
+  font-weight: 600;
+  color: #111517;
+}
+
+.cards {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+  background-color: #fafafa;
+}
+
+@media (min-width: 600px) {
+  .cards { grid-template-columns: repeat(4, 1fr); }
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 30px;
+  height: 450px;
+  background-color: #fafafa;
+}
+
+.card-title {
+  font-weight: 700;
+  padding-left: 17px;
+  background-color: white;
+}
+
+
+
+.description {
+  padding-top: 5px;
+  padding-left: 17px;
+  font-size: 14px;
+  color: #111517;
+  background-color: white;
+}
+
+.strong-style{
+  font-weight: 500;
+  background-color: white;
+}
+
+.card-box {
+  box-shadow: 0 0 2px rgba(0,0,0,0.3);
+  width: 230px;
+  height: 280px;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  align-items: center;
+  background-color: white;
+}
+
+.card_body {
+  background-color: white;
+}
+
+.img {
+  height: 150px;
+  border-radius: 5% 5% 0% 0%;
+  background-color: white;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+  background-color: white;
+}
+
+h6{
+  display: inline;
+}
+
+@media (max-width: 800px) {
+  .main-line {
+    flex-direction: column;
+  }
+}
