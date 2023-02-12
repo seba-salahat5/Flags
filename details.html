@@ -2,63 +2,52 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>details</title>
     <script src="https://kit.fontawesome.com/1a43bb7471.js" crossorigin="anonymous"></script>
     <link href='https://fonts.googleapis.com/css?family=Nunito Sans' rel='stylesheet'>
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/style2.css">
 </head>
 <body>
-
-<header>
-    <div class="header-div">
-        <p class="header-text left">Where in the world?</p>
-    </div>
-    <div class="header-div">
-        <i class="fa-regular fa-moon"></i>
-        <p class="header-text right">Dark Mode</p>
-    </div>
-</header>
-<main>
-    <div class="back-line">
+    <header>
+        <h1>Where in the world?</h1>
+        <button><i class="fa-regular fa-moon"></i>Dark Mode</button>
+    </header>
+    <main>
         <button class="button"><i class="fa-solid fa-arrow-left-long"></i>Back</button>
-    </div>
-</main>
-
-<div class="row">
-  <div class="col-6 col-s-9">
-    <img src="./assets/de.svg" width="460" height="345">
-  </div>
-
-  <div class="col-6 col-s-9">
-    <h2 style="margin-left: 12px;">Belgium</h2>
-    <div class="col-6 col-s-9">
-        <dl>
-            <dt><p><strong >Native Name: </strong>Belgie</p></dt>
-            <dt><p><strong >Population: </strong>11,319,511</p></dt>
-            <dt><p><strong >Region: </strong>Europe</p></dt>
-            <dt><p><strong >Sub Region: </strong>Western Europe</p></dt>
-            <dt><p><strong >Capital: </strong>Brussels</p></dt>
-            </dl>
-    </div>     
-    <div class="col-6 col-s-9">
-        <dt><p><strong >Top Level Domain: </strong>.be</p></dt>
-        <dt><p><strong >Currencies: </strong>Euro</p></dt>
-        <dt><p><strong >Languages: </strong>Dutch, French, German</p></dt>            
-    </div>
-  </div>
-
-  <div class="col-6 col-s-9">
-    <div class="aside">
-        <p style="display: inline;"><strong>Border Countries: </strong></p>
-        <div style="display: inline;">
-            <button class="border">France</button>
-            <button class="border">Germany</button>
-            <button class="border">Netherlands</button>
+    </main>
+    <div class="row">
+        <div class="col-6 col-s-9">
+          <img src="./assets/de.svg">
+        </div>
+      
+        <div class=" description col-6 col-s-9">
+          <h2>Belgium</h2>
+          <div class="col-6 col-s-9">
+            <dt><h3 class="title">Native Name: </h3><h3>Belgie</h3></dt>
+            <dt><h3 class="title">Population: </h3><h3>11,319,511</h3></dt>
+            <dt><h3 class="title">Region: </h3><h3>Europe</h3></dt>
+            <dt><h3 class="title">Sub Region: </h3><h3>Western Europe</h3></dt>
+            <dt><h3 class="title">Capital: </h3><h3>Brussels</h3></dt>
+          </div>     
+          <div class="col-6 col-s-9">
+            <dt><h3 class="title">Top Level Domain: </h3><h3>.be</h3></dt>
+            <dt><h3 class="title">Currencies: </h3><h3>Euro</h3></dt>
+            <dt><h3 class="title">Languages: </h3><h3> Dutch, French, German</h3></dt>            
+          </div>
+        </div>
+      
+        <div class="description col-6 col-s-9">
+          <div class="border-countries">
+              <h3 class="title">Border Countries:</h3>
+              <div style="display: inline;">
+                  <button class="border">France</button>
+                  <button class="border">Germany</button>
+                  <button class="border">Netherlands</button>
+              </div>
+          </div>
         </div>
     </div>
-  </div>
-</div>
-
 
 
 </body>
